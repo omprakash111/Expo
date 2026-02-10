@@ -3,8 +3,8 @@ import React from 'react';
 
 function Rootlayout() {
   return (
-    <Stack>
-        <Stack.Screen name="index" options={{headerShown:false}}/>
+    <Stack >
+        <Stack.Screen name="index" />
         <Stack.Screen name="about/index" />
     </Stack>
   )
